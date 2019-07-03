@@ -52,7 +52,7 @@ describe 'Cartoon Collections' do
 
   describe '#find_the_cheese' do
     it 'returns the first element of the array that is cheese' do
-      cheddar_cheese = %w[banana cheddar sock]
+      cheddar_cheese = %w[banana cheddar gouda sock]
       expect(find_the_cheese(cheddar_cheese)).to eq 'cheddar'
     end
 
